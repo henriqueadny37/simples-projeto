@@ -63,3 +63,31 @@ footer {
     color: white;
     padding: 10px;
 }
+@media only screen and (max-width:600px) {
+    img{
+        display: flex;
+        padding: 0 10px;
+        
+    }
+    nav{
+        text-align: center;
+        background-size: contain;
+        padding: 15px;
+        background-image: url(capa/cots.jpg);
+    }
+    header{
+        background-image: url(capa/barberr.jpg);
+        background-size: cover;
+        
+    }
+    main{
+      background-image: url(capa/shop.jpg);
+      background-size: auto;
+    }
+    header > h1{
+        color: #000000;
+    }
+    header > h3{
+        color: #000000;
+    }
+}
